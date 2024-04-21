@@ -1,0 +1,3 @@
+send local mail reminding about periodic tasks
+display that mail using .bashrc
+notify-send on such mail (critical) and if there is no mail (normal) maybe with a summary when each task has been done recently

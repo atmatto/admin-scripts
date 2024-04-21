@@ -1,0 +1,7 @@
+sudo smartctl /dev/sda
+sudo smartctl /dev/sda -c # check available scan modes (?)
+sudo smartctl /dev/sda -t short
+# wait
+sudo smartctl /dev/sda -H
+sudo smartctl /dev/sda -l selftest
+sudo smartctl /dev/sda -x # display a lot of information
